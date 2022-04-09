@@ -17,6 +17,7 @@
     padding-left: 150px;
     letter-spacing: .2rem;
   }
+  
 
 .navbar .right{
     color: #fff;
@@ -25,9 +26,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
     
 }
 
 .navbar .right svg{
     font-size:40px;
+}
+
+.navbar .right .amount-container{
+    position: absolute;
+    top: -0.85rem;
+    right: 0.85rem;
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 50%;
+    background-color: #1e3163;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

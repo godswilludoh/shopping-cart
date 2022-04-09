@@ -8,6 +8,9 @@ const Navbar = () => {
 			<div className='left'>HotDeals</div>
 			<div className='right'>
 				<ShoppingCartIcon />
+				<div className='amount-container'>
+					<p className='total-amount'>5</p>
+				</div>
 			</div>
 		</div>
 	);
