@@ -1,0 +1,33 @@
+.navbar{
+    display:flex;
+    background:#32aad5;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+}
+
+.navbar .left {
+    color: #fff;
+    font-size:25px;
+    font-weight: 700;
+    height: 100%;
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    letter-spacing: .2rem;
+  }
+
+.navbar .right{
+    color: #fff;
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navbar .right svg{
+    font-size:40px;
+}
